@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import pdf from "../Assets/ANSUL_MENARIA_RESUME.pdf";
 import Button from "react-bootstrap/Button";
 import { CgGitFork } from "react-icons/cg";
@@ -38,8 +37,25 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="#home" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand
+          href="#home"
+          className="d-flex"
+          style={{
+            display: "inline-block",
+            background: "linear-gradient(45deg, #8a2be2, #4b0082)",
+            WebkitBackgroundClip: "text",
+            backgroundClip: "text",
+            color: "transparent",
+            fontWeight: "bold",
+            fontSize: "1.8rem",
+            letterSpacing: "2px",
+            fontFamily: "'Poppins', sans-serif",
+            cursor: "pointer",
+            transition: "0.3s",
+            textTransform: "uppercase",
+          }}
+        >
+          AM
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
