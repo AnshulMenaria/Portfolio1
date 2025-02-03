@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg"; // Replace with your actual avatar
+import myImg from "../../Assets/avatar.svg"; 
 import Tilt from "react-parallax-tilt";
 
 function About() {

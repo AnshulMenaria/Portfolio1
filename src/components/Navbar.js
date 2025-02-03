@@ -37,26 +37,27 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand
-          href="#home"
-          className="d-flex"
-          style={{
-            display: "inline-block",
-            background: "linear-gradient(45deg, #8a2be2, #4b0082)",
-            WebkitBackgroundClip: "text",
-            backgroundClip: "text",
-            color: "transparent",
-            fontWeight: "bold",
-            fontSize: "1.8rem",
-            letterSpacing: "2px",
-            fontFamily: "'Poppins', sans-serif",
-            cursor: "pointer",
-            transition: "0.3s",
-            textTransform: "uppercase",
-          }}
-        >
-          AM
-        </Navbar.Brand>
+      <Navbar.Brand
+        href="#home"
+        className="d-flex"
+        style={{
+          display: "inline-block",
+          background: "#CD5FF8",
+          color: "#CD5FF8",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent", // Ensures text is transparent, allowing the gradient to show
+          fontSize: "2.5rem",
+          fontWeight: "bolder",
+          letterSpacing: "3px",
+          fontFamily: "'Luminari', 'fantasy'",
+          cursor: "pointer",
+          transition: "0.3s",
+          textTransform: "uppercase",
+        }}
+      >
+        ANSUL MENARIA
+      </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -102,7 +103,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/AnshulMenaria/Portfolio1"
                 target="_blank"
                 className="fork-btn-inner"
               >

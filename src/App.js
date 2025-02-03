@@ -10,6 +10,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/Home/About";
+import Contact from "./components/Home/Contact";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -40,6 +41,9 @@ function App() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="contacts">
+        <Contact />
       </div>
       <Footer />
     </div>
